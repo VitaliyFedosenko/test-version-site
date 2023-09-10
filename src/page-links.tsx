@@ -1,0 +1,17 @@
+export const PAGE_LINKS = {
+  MAIN: '/',
+  BLACK_CAR_SERVICE: '/black-car-service',
+  MOUNTAIN_SUV_SERVICE: '/mountain-suv-service',
+  CORPORATE_TRANSPORTATION: '/corporate-transportation',
+  CONCERT_TRANSPORTATION: '/concert-transportation',
+  DENVER_NIGHT_OUT: '/denver-night-out-service',
+  EVENT_TRANSPORTATION: '/event-transportation',
+  WEDDING_TRANSPORTATION: '/wedding-transportation',
+  ABOUT: '/about',
+  PRICES: '/prices',
+  MOBILE_APP: '/mobile-app',
+  BOOK_NOW: '/book-now',
+  AFFILIATES: '/affiliates',
+  TERMS: '/terms-and-conditions',
+  CONTACT_US: '/contact-us',
+}
