@@ -79,7 +79,7 @@ export const ReviewSlider = () => {
           <Image 
               src={arrow_left} 
               alt="arrow_left" 
-              className='w-[60px] cursor-pointer'
+              className='w-[30px] cursor-pointer'
             />
           </button>
           {googleReviews.slice(currentIndex, currentIndex + cardsPerPage).map((review, inx) => (
@@ -119,19 +119,19 @@ export const ReviewSlider = () => {
           <Image 
             src={arrow_right} 
             alt="arrow_right" 
-            className='w-[60px] cursor-pointer'
+            className='w-[30px] cursor-pointer'
           />
           </button>
         </div>
       </div>
 
       <div className='block mobile:hidden tablet:hidden'>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center px-6">
           <button onClick={handleClickPrev} >
           <Image 
               src={arrow_left} 
               alt="arrow_left" 
-              className='w-[60px] cursor-pointer'
+              className='w-[20px] cursor-pointer'
             />
           </button>
              {googleReviews.slice(currentIndex, currentIndex + cardsPerPageMobile).map((review, inx) => (
@@ -168,19 +168,19 @@ export const ReviewSlider = () => {
             <Image 
               src={arrow_right} 
               alt="arrow_right" 
-              className='w-[60px] cursor-pointer'
+              className='w-[20px] cursor-pointer'
             />
             </button>
         </div>
       </div>
 
       <div className='hidden mobile:block tablet:hidden'>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center px-6">
           <button onClick={handleClickPrev} >
           <Image 
               src={arrow_left} 
               alt="arrow_left" 
-              className='w-[60px] cursor-pointer'
+              className='w-[20px] cursor-pointer'
             />
           </button>
              {googleReviews.slice(currentIndex, currentIndex + cardsPerPageTablet).map((review, inx) => (
@@ -217,7 +217,7 @@ export const ReviewSlider = () => {
             <Image 
               src={arrow_right} 
               alt="arrow_right" 
-              className='w-[60px] cursor-pointer'
+              className='w-[20px] cursor-pointer'
             />
             </button>
         </div>

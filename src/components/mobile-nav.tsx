@@ -98,10 +98,10 @@ const MobileNav = ({ isOpen, onClose }) => {
       <div className={`absolute top-0 left-0 flex flex-col z-[10000000] bg-[#191919] overflow-y-auto h-[100vh]
         px-6 py-6 w-full text-[16px] leading-[20px] ${isOpen ? 'block' : 'hidden'}`}
       >
-        <div className="w-full flex justify-end fixed top-0 left-0 bg-[#191919] p-6">
+        <div className="w-full flex justify-end fixed top-0 left-0 bg-[#191919] pt-6 px-6">
           <Image src={cross} alt="cross" className="w-7" onClick={onClose} />
         </div>
-        <div className="flex flex-col mt-[60px] tracking-[0.5px]">
+        <div className="flex flex-col mt-[30px] tracking-[0.5px]">
           { mobileLinksPrimary.map((item) => (
               <Link 
                 key={item.link}

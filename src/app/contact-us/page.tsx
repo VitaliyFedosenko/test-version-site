@@ -42,7 +42,7 @@ export default function ContactUs() {
 })
 
   return (
-    <div className="w-full bg-[#161616] text-[#A4A4A4] px-6 tablet:px-0">
+    <div className="w-full bg-[#161616] text-[#A4A4A4] ">
       <section className="tablet:py-[56px] py-10 w-full max-w-[1140px] mx-auto">
         <h2 className='text-[#EEB957] font-noto tablet:text-[44px] text-[32px] leading-[44px] 
           tablet:leading-[60px] font-[900] text-center mt-8 mb-10'
