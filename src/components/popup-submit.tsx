@@ -2,7 +2,14 @@ import Image from "next/image"
 
 import greenmark from "../../public/images/popup/success-greenmark-icon.svg"
 
-export const PopupSubmit = () => {
+interface PopupSubmitProps {
+  show: boolean
+}
+
+export const PopupSubmit: React.FC<PopupSubmitProps> = ({ show }) => {
+  if (!show) {
+    return null
+  }
 
   return (
     <div className="absolute top-0 left-0 w-full h-full bg-[#161616] z-[1000]">

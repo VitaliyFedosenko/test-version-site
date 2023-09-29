@@ -1,11 +1,13 @@
+
 import './globals.css'
 import type { Metadata } from 'next'
 import Head from 'next/head'
-import { Roboto } from 'next/font/google'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import localFont from 'next/font/local'
 import { roboto } from './font'
+import CookieBanner from '@/components/cookie-banner'
+import posthog from 'posthog-js'
 
 export const noto = localFont({ src: '../../public/local-font/NotoSerifBold.woff2' })
 
@@ -31,6 +33,7 @@ export default function RootLayout({
           <main>
             {children}
           </main>
+          { !posthog.has_opted_in_capturing() && !posthog.has_opted_out_capturing() && <CookieBanner /> }
         <Footer />
       </body>
     </html>
