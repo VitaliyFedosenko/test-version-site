@@ -92,7 +92,7 @@ export default function ContactUs() {
             >
               {({ values, errors, touched, handleChange, handleBlur, isValid, handleSubmit, dirty }) => (
               <>
-                <div className="mobile:mx-auto tablet:mx-0 relative">
+                <div className="mobile:mx-auto tablet:mx-0 relative px-6 mobile:px-0">
                   <div className="w-full mobile:w-[532px] flex flex-col gap-y-4">
                     <div className="flex flex-col">
                       <label 
