@@ -92,7 +92,7 @@ export default function ContactUs() {
             >
               {({ values, errors, touched, handleChange, handleBlur, isValid, handleSubmit, dirty }) => (
               <>
-                <div className="mobile:mx-auto tablet:mx-0 relative px-6 mobile:px-0">
+                <div className="mobile:mx-auto tablet:mx-0 relative px-6 mobile:px-0 mobile:w-[532px]">
                   <div className="w-full mobile:w-[532px] flex flex-col gap-y-4">
                     <div className="flex flex-col">
                       <label 
@@ -129,7 +129,7 @@ export default function ContactUs() {
                     </div>
                   </div>
 
-                    <div className="flex flex-col mt-4">
+                  <div className="flex flex-col mt-4">
                     <label 
                       className="text-white text-[14px] leading-[18px] flex mb-2" 
                       htmlFor={`message`}> 
@@ -167,7 +167,7 @@ export default function ContactUs() {
             <PopupSubmit show={showPopup}/>
             </div>
             <p className="text-[12px] leading-[18px] mt-8 text-center tablet:hidden block mb-10">
-              This site is protected by reCAPTCHA and the Google 
+              This site is protected the Google 
                 <a href="https://policies.google.com/privacy" className="text-[#EEB957]">
                 {' '}Privacy Policy
                 </a> and 
@@ -216,7 +216,7 @@ export default function ContactUs() {
             </div>
           </div>
           <p className="text-[12px] leading-[18px] mt-8 hidden tablet:block">
-            This site is protected by reCAPTCHA and the Google 
+            This site is protected the Google 
               <a href="https://policies.google.com/privacy" className="text-[#EEB957]">
               {' '}Privacy Policy
               </a> and 

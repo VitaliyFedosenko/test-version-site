@@ -42,13 +42,13 @@ const Home: NextPage = () => {
       title: 'Mountain SUV Service',
       text: 'Comfortable, spacious and luxury option for ski resorts and Rocky Mountain travel. Preferred class for the groups or families of up to 7 people with luggage. Large ski boxes can be requested for an additional luggage space.',
       img: car_pic_3,
-      url: 'PAGE_LINKS.MOUNTAIN_SUV_SERVICE',
+      url: '/mountain-suv-service',
     },
     {
       title: 'Luxury SUV Service',
       text: 'Denver elite transportation service provided by Get-A-Ride for the clients who enjoy VIP treatment. If you like to treat your business partner or your family to one of the best services in the city - this option is what you are looking for.',
       img: car_pic_4,
-      url: 'PAGE_LINKS.CORPORATE_TRANSPORTATION',
+      url: '/corporate-transportation',
     },
   ]
 
@@ -211,7 +211,7 @@ const Home: NextPage = () => {
           </p>
         </div>
         <Link 
-          href={PAGE_LINKS.BLACK_CAR_SERVICE}
+          href={PAGE_LINKS.BLACK_CAR_SERVICE} 
           className='bg-[#EEB957] text-black py-4 px-8 text-[14px] w-full tablet:w-fit mobile:w-[532px] text-center
           leading-[24px] tracking-[1px] font-bold rounded-xl hover:bg-[#ffdea0]'
         >
@@ -279,78 +279,53 @@ const Home: NextPage = () => {
         </div>
       </section>
       <section className='tablet:py-[56px] py-10 flex flex-col justify-center items-center bg-black tablet:px-0 px-6'>
-        <h3 className='tablet:text-[44px] text-[32px] tablet:leading-[64px] leading-[44px] text-[#EEB957] 
-          mb-10 text-center tracking-[0.1rem] font-bold font-noto'
-        >
-          Thank you for your business!
-        </h3>
-          <p className='text-[22px] leading-[32px] text-[#E2E2E2] mb-6 text-center w-full max-w-[720px]'>
-            Please note that your booking might take up to 24 hour to process and is 
-             a subject to availability
-          </p>
-          <p className='text-[#919191] mb-6 tablet:text-start text-center'>
-            By scheduling this service you agree to <Link href={PAGE_LINKS.TERMS} className='text-[#EEB957] font-bold'>Terms and Conditions</Link> 
-          </p>
-          <Link 
-            href="https://wa.me/19704382743"
-            className='flex py-3 px-4 bg-[#FFFFFF] hover:bg-[#cacaca] 
-              font-bold justify-center items-center rounded-xl mt-6 google-btn-shadow'
-            target='_blank'
-          >
-            <Image 
-              src={whatsapp} 
-              alt="whatsapp" 
-              className='w-[40px]'
-            />
-            Connect on WhatsApp
-          </Link>
-          <div className='mt-[80px] flex tablet:flex-row flex-col justify-around items-center w-full max-w-[800px]'>
-            <div className='text-center flex flex-col tablet:gap-y-6 gap-y-4'>
-              <p className='text-[#E2E2E2] text-[22px]'>
-                Get-A-Ride LLC
-              </p>
-              <p className='text-[#919191]'>
-                  Denver, Colorado 80202, United States
-              </p>
-              <a 
-                href="mailto:info@getaride.limo"
-                className='text-[#EEB957]'
-              >
-                info@getaride.limo
-              </a>
-              <a 
-                href="tel:9704382743"
-                className='text-[#EEB957]'
-              >
-                (970) 438-2743
-              </a>
-            </div>
-            <div className='mt-10 tablet:mt-0'>
-              <p className='text-[#E2E2E2] text-[22px] text-center tablet:mb-6 mb-4'>
-                Hours
-              </p>
-              <div className='flex text-[#919191] gap-x-2'>
-                <div> 
-                  <p>Mon</p>
-                  <p>Tue</p>
-                  <p>Wed</p>
-                  <p>Thu</p>
-                  <p>Fri</p>
-                  <p>Sat</p>
-                  <p>Sun</p>
-                </div>
-                <div> 
-                  <p>12:00 am – 12:00 am</p>
-                  <p>12:00 am – 12:00 am</p>
-                  <p>12:00 am – 12:00 am</p>
-                  <p>12:00 am – 12:00 am</p>
-                  <p>12:00 am – 12:00 am</p>
-                  <p>12:00 am – 12:00 am</p>
-                  <p>12:00 am – 12:00 am</p>
-                </div>
+        <div className='mt-[80px] flex tablet:flex-row flex-col justify-around items-center w-full max-w-[800px]'>
+          <div className='text-center flex flex-col tablet:gap-y-6 gap-y-4'>
+            <p className='text-[#E2E2E2] text-[22px]'>
+              Get-A-Ride LLC
+            </p>
+            <p className='text-[#919191]'>
+                Denver, Colorado 80202, United States
+            </p>
+            <a 
+              href="mailto:info@getaride.limo"
+              className='text-[#EEB957]'
+            >
+              info@getaride.limo
+            </a>
+            <a 
+              href="tel:9704382743"
+              className='text-[#EEB957]'
+            >
+              (970) 438-2743
+            </a>
+          </div>
+          <div className='mt-10 tablet:mt-0'>
+            <p className='text-[#E2E2E2] text-[22px] text-center tablet:mb-6 mb-4'>
+              Hours
+            </p>
+            <div className='flex text-[#919191] gap-x-2'>
+              <div> 
+                <p>Mon</p>
+                <p>Tue</p>
+                <p>Wed</p>
+                <p>Thu</p>
+                <p>Fri</p>
+                <p>Sat</p>
+                <p>Sun</p>
+              </div>
+              <div> 
+                <p>12:00 am – 12:00 am</p>
+                <p>12:00 am – 12:00 am</p>
+                <p>12:00 am – 12:00 am</p>
+                <p>12:00 am – 12:00 am</p>
+                <p>12:00 am – 12:00 am</p>
+                <p>12:00 am – 12:00 am</p>
+                <p>12:00 am – 12:00 am</p>
               </div>
             </div>
           </div>
+        </div>
       </section>
     </div>
   )

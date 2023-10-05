@@ -7,7 +7,18 @@ import face_3 from '../../public/images/google-reviews/face_3.png'
 import face_4 from '../../public/images/google-reviews/face_4.png'
 import face_5 from '../../public/images/google-reviews/face_5.png'
 import face_6 from '../../public/images/google-reviews/face_6.png'
+import face_7 from '../../public/images/google-reviews/face_7.png'
+import face_8 from '../../public/images/google-reviews/face_8.png'
+import face_9 from '../../public/images/google-reviews/face_9.png'
+import face_10 from '../../public/images/google-reviews/face_10.png'
+import face_13 from '../../public/images/google-reviews/face_13.png'
+import face_14 from '../../public/images/google-reviews/face_14.png'
+import face_15 from '../../public/images/google-reviews/face_15.png'
+import face_16 from '../../public/images/google-reviews/face_16.png'
+import face_12 from '../../public/images/google-reviews/face_12.png'
+import face_11 from '../../public/images/google-reviews/face_11.png'
 import google_logo from '../../public/images/home-page-pic/google-tile.svg'
+import thumbtrack_logo from '../../public/images/home-page-pic/thumbtrack_logo.webp'
 import five_stars from '../../public/images/home-page-pic/rate-stars-yellow.svg'
 import arrow_left from '../../public/images/home-page-pic/left-arrow.svg'
 import arrow_right from '../../public/images/home-page-pic/right-arrow.svg'
@@ -18,48 +29,150 @@ const googleReviews = [
     avatar: face_1,
     text: 'This Black car service is excellent. Only one I will use!',
     userName: 'Vicki Brown -',
+    logo: google_logo,
     date: '7/26/2023',
+    link: 'https://www.google.com/maps?cid=15798912800038747547'
   },
   {
     inx: 2,
     avatar: face_2,
     text: 'We had a fun birthday trip planned and Roman was so pr...',
     userName: 'Kim Charles -',
+    logo: google_logo,
     date: '7/23/2023',
+    link: 'https://www.google.com/maps?cid=15798912800038747547'
   },
   {
     inx: 3,
     avatar: face_3,
     text: 'We have used them several times to and from the airport....',
     userName: 'Niek Feyenoord4Ever -',
+    logo: google_logo,
     date: '2/17/2023',
+    link: 'https://www.google.com/maps?cid=15798912800038747547'
   },
   {
     inx: 4,
     avatar: face_4,
     text: 'Great and professional service. Will definitely use again. Reas...',
     userName: 'E K - ',
+    logo: google_logo,
     date: '9/4/2022',
+    link: 'https://www.google.com/maps?cid=15798912800038747547'
   },
   {
     inx: 5,
     avatar: face_5,
     text: 'We got a driver named Roman that was incredibly profession...',
     userName: 'Steven Wizzle -',
+    logo: google_logo,
     date: '5/25/2021',
+    link: 'https://www.google.com/maps?cid=15798912800038747547'
   },
   {
     inx: 6,
     avatar: face_6,
     text: 'Highly recommend this car service! Roman picked us up a...',
     userName: 'Claudia Aniol -',
+    logo: google_logo,
     date: '5/21/2021',
+    link: 'https://www.google.com/maps?cid=15798912800038747547'
+  },
+  {
+    inx: 7,
+    avatar: face_7,
+    text: 'Very excellent in all aspects of your profession. Atten...',
+    userName: 'James L. -',
+    logo: thumbtrack_logo,
+    date: '1/07/2023',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 8,
+    avatar: face_8,
+    text: 'Top service, very professional & very nice lux SUV and ...',
+    userName: 'Ricardo G. -',
+    logo: thumbtrack_logo,
+    date: '3/07/2023',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 9,
+    avatar: face_9,
+    text: 'Did after wedding transport. Driver was on time car wa...',
+    userName: 'Mike a. -',
+    logo: thumbtrack_logo,
+    date: '5/31/2022',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 10,
+    avatar: face_12,
+    text: 'I used Get-A-Ride for Prom night for my son and his ...',
+    userName: 'Kenia A. -',
+    logo: thumbtrack_logo,
+    date: '2/05/2022',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 11,
+    avatar: face_10,
+    text: 'Roman was awesome! Although there was a terrible ...',
+    userName: 'Teena T. -',
+    logo: thumbtrack_logo,
+    date: '1/22/2022',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 12,
+    avatar: face_11,
+    text: 'Great and reliable service, used it on my way from the ...',
+    userName: 'Anthony M. -',
+    logo: thumbtrack_logo,
+    date: '27/07/2020',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 13,
+    avatar: face_13,
+    text: 'Worth every penny! Easy to work with. On time and very ...',
+    userName: 'Tim F. -',
+    logo: thumbtrack_logo,
+    date: '7/28/2021',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 14,
+    avatar: face_14,
+    text: 'They are awesome. Will definitely use again.',
+    userName: 'Brian H. -',
+    logo: thumbtrack_logo,
+    date: '9/27/2021',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 15,
+    avatar: face_15,
+    text: 'Incredible service, one of the most professional, clean...',
+    userName: 'Kyle T. -',
+    logo: thumbtrack_logo,
+    date: '4/12/2022',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
+  },
+  {
+    inx: 16,
+    avatar: face_16,
+    text: 'We used Get-A-Ride Denver for transportation after our ...',
+    userName: 'Sarahanne T. -',
+    logo: thumbtrack_logo,
+    date: '2/2/2022',
+    link: 'https://www.thumbtack.com/co/denver/limousines/get-ride-executive-transportation/service/393807679983132677'
   },
 ]
 
 export const ReviewSlider = () => {
   const [currentIndex, setCurrentIndex] = React.useState(0)
-  const cardsPerPage = 3
+  const cardsPerPage = 4
   const cardsPerPageTablet = 2
   const cardsPerPageMobile = 1
 
@@ -72,7 +185,7 @@ export const ReviewSlider = () => {
   }
 
   return (
-    <div className="w-full max-w-[1140px] mx-auto">
+    <div className="w-full max-w-[1190px] mx-auto">
       <div className='hidden tablet:block'>
         <div className="flex justify-between items-center">
           <button onClick={handleClickPrev} disabled={currentIndex === 0}>
@@ -85,7 +198,7 @@ export const ReviewSlider = () => {
           {googleReviews.slice(currentIndex, currentIndex + cardsPerPage).map((review, inx) => (
               <div 
                 key={inx}
-                className='bg-white p-6 rounded-[10px] w-full max-w-[280px] mt-[64px]'
+                className='bg-white py-6 px-3 rounded-[10px] w-full max-w-[262px] mt-[64px]'
               >
                 <div className='flex flex-col justify-center items-center gap-y-6'>
                   <Image src={review.avatar} alt="avatar_user" className='w-[100px] h-fit' />
@@ -94,11 +207,11 @@ export const ReviewSlider = () => {
                     {'"'}{review.text}{'"'}
                   </p>
                   <div className='relative flex justify-center items-center p-2 text-[14px]
-                    bg-[#4285F4] hover:bg-[#2369d8] text-white rounded-lg google-btn-shadow'
+                    btn-gradient text-white rounded-lg google-btn-shadow'
                   >
-                    <Image src={google_logo} alt="avatar_user" className='w-6 h-fit mr-2' />
+                    <Image src={review.logo} alt="link_logo" className='w-6 h-fit mr-2' />
                     <a 
-                      href="https://www.google.com/maps?cid=15798912800038747547" 
+                      href={review.link} 
                       target='_blank'
                       className='absolute top-0 left-0 w-full h-full'
                     >                 
@@ -109,7 +222,7 @@ export const ReviewSlider = () => {
                   >
                     <strong>{review.userName}</strong> 
                     <span>
-                      {review.date}
+                      {' '}{review.date}
                     </span>
                   </p>
                 </div>
@@ -146,11 +259,11 @@ export const ReviewSlider = () => {
                       {'"'}{review.text}{'"'}
                     </p>
                     <div className='relative flex justify-center items-center p-2 text-[14px]
-                      bg-[#4285F4] hover:bg-[#2369d8] text-white rounded-lg google-btn-shadow'
+                      btn-gradient text-white rounded-lg google-btn-shadow'
                     >
-                      <Image src={google_logo} alt="avatar_user" className='mobile:w-6 w-5 h-fit mobile:mr-2 mr-1' />
+                      <Image src={review.logo} alt="link_logo" className='mobile:w-6 w-5 h-fit mobile:mr-2 mr-1' />
                       <a 
-                        href="https://www.google.com/maps?cid=15798912800038747547" 
+                        href={review.link} 
                         target='_blank'
                         className='absolute top-0 left-0 w-full h-full'
                       >                 
@@ -159,7 +272,7 @@ export const ReviewSlider = () => {
                     </div>
                     <p className='text-[14px] leading-[21px] text-[#3A3B3C]'
                     >
-                      <strong>{review.userName}</strong>{review.date}
+                      <strong>{review.userName}</strong>{' '}{review.date}
                     </p>
                   </div>
                 </div>
@@ -195,11 +308,11 @@ export const ReviewSlider = () => {
                       {'"'}{review.text}{'"'}
                     </p>
                     <div className='relative flex justify-center items-center p-2 text-[14px]
-                      bg-[#4285F4] hover:bg-[#2369d8] text-white rounded-lg google-btn-shadow'
+                      btn-gradient text-white rounded-lg google-btn-shadow'
                     >
-                      <Image src={google_logo} alt="avatar_user" className='mobile:w-6 w-5 h-fit mobile:mr-2 mr-1' />
+                      <Image src={review.logo} alt="link_logo" className='mobile:w-6 w-5 h-fit mobile:mr-2 mr-1' />
                       <a 
-                        href="https://www.google.com/maps?cid=15798912800038747547" 
+                        href={review.link} 
                         target='_blank'
                         className='absolute top-0 left-0 w-full h-full'
                       >                 

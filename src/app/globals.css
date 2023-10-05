@@ -46,6 +46,10 @@ body {
   outline: 2px solid #A6A6A6;
 }
 
+.btn-gradient {
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+
 @media screen and (max-width: 500px) {  
   body {
     padding: 76px 0 0 0;
