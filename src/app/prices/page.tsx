@@ -7,350 +7,350 @@ import car_1 from '../../../public/images/prices/price_car.webp'
 import car_2 from '../../../public/images/prices/price-car-2.webp'
 import car_3 from '../../../public/images/prices/price-car-3.webp'
 
-const denverMetro = [
-  {
-    place: 'Aurora',
-    sedan: '$120',
-    suv: '$140',
-  },
-  {
-    place: 'Arvada',
-    sedan: '$135',
-    suv: '$155',
-  },
-  {
-    place: 'Brighton',
-    sedan: '$125',
-    suv: '$145',
-  },
-  {
-    place: 'Broomfield',
-    sedan: '$140',
-    suv: '$165',
-  },
-  {
-    place: 'Cherry Creek',
-    sedan: '$125',
-    suv: '$145',
-  },
-  {
-    place: 'Cherry Hills Village',
-    sedan: '$130',
-    suv: '$150',
-  },
-  {
-    place: 'Centennial',
-    sedan: '$125',
-    suv: '$145',
-  },
-  {
-    place: 'Commerce City',
-    sedan: '$125',
-    suv: '$145',
-  },
-  {
-    place: 'Denver Downtown',
-    sedan: '$125',
-    suv: '$145',
-  },
-  {
-    place: 'DTC',
-    sedan: '$125',
-    suv: '$145',
-  },
-  {
-    place: 'Englewood',
-    sedan: '$125',
-    suv: '$145',
-  },
-  {
-    place: 'Federal Heights',
-    sedan: '$145',
-    suv: '$170',
-  },
-  {
-    place: 'Glendale',
-    sedan: '$125',
-    suv: '$145',
-  },
+// const denverMetro = [
+//   {
+//     place: 'Aurora',
+//     sedan: '$120',
+//     suv: '$140',
+//   },
+//   {
+//     place: 'Arvada',
+//     sedan: '$135',
+//     suv: '$155',
+//   },
+//   {
+//     place: 'Brighton',
+//     sedan: '$125',
+//     suv: '$145',
+//   },
+//   {
+//     place: 'Broomfield',
+//     sedan: '$140',
+//     suv: '$165',
+//   },
+//   {
+//     place: 'Cherry Creek',
+//     sedan: '$125',
+//     suv: '$145',
+//   },
+//   {
+//     place: 'Cherry Hills Village',
+//     sedan: '$130',
+//     suv: '$150',
+//   },
+//   {
+//     place: 'Centennial',
+//     sedan: '$125',
+//     suv: '$145',
+//   },
+//   {
+//     place: 'Commerce City',
+//     sedan: '$125',
+//     suv: '$145',
+//   },
+//   {
+//     place: 'Denver Downtown',
+//     sedan: '$125',
+//     suv: '$145',
+//   },
+//   {
+//     place: 'DTC',
+//     sedan: '$125',
+//     suv: '$145',
+//   },
+//   {
+//     place: 'Englewood',
+//     sedan: '$125',
+//     suv: '$145',
+//   },
+//   {
+//     place: 'Federal Heights',
+//     sedan: '$145',
+//     suv: '$170',
+//   },
+//   {
+//     place: 'Glendale',
+//     sedan: '$125',
+//     suv: '$145',
+//   },
 
-  {
-    place: 'Greenwood Village',
-    sedan: '$130',
-    suv: '$150',
-  },
-  {
-    place: 'Golden',
-    sedan: '$140',
-    suv: '$165',
-  },
-  {
-    place: 'Highlands Ranch',
-    sedan: '$140',
-    suv: '$160',
-  },
-  {
-    place: 'Ken Caryl Ranch',
-    sedan: '$155',
-    suv: '$185',
-  },
-  {
-    place: 'Lafayette',
-    sedan: '$145',
-    suv: '$170',
-  },
-  {
-    place: 'Lakewood',
-    sedan: '$140',
-    suv: '$165',
-  },
-  {
-    place: 'Littleton',
-    sedan: '$140',
-    suv: '$170',
-  },
-  {
-    place: 'Lone Tree',
-    sedan: '$135',
-    suv: '$160',
-  },
-  {
-    place: 'Louisville',
-    sedan: '$145',
-    suv: '$170',
-  },
-  {
-    place: 'Morrison',
-    sedan: '$160',
-    suv: '$190',
-  },
-  {
-    place: 'Northglenn',
-    sedan: '$140',
-    suv: '$165',
-  },
-  {
-    place: 'Sheridan',
-    sedan: '$140',
-    suv: '$160',
-  },
-  {
-    place: 'Thornton',
-    sedan: '$140',
-    suv: '$165',
-  },
-  {
-    place: 'Westminster',
-    sedan: '$130',
-    suv: '$150',
-  },
-]
+//   {
+//     place: 'Greenwood Village',
+//     sedan: '$130',
+//     suv: '$150',
+//   },
+//   {
+//     place: 'Golden',
+//     sedan: '$140',
+//     suv: '$165',
+//   },
+//   {
+//     place: 'Highlands Ranch',
+//     sedan: '$140',
+//     suv: '$160',
+//   },
+//   {
+//     place: 'Ken Caryl Ranch',
+//     sedan: '$155',
+//     suv: '$185',
+//   },
+//   {
+//     place: 'Lafayette',
+//     sedan: '$145',
+//     suv: '$170',
+//   },
+//   {
+//     place: 'Lakewood',
+//     sedan: '$140',
+//     suv: '$165',
+//   },
+//   {
+//     place: 'Littleton',
+//     sedan: '$140',
+//     suv: '$170',
+//   },
+//   {
+//     place: 'Lone Tree',
+//     sedan: '$135',
+//     suv: '$160',
+//   },
+//   {
+//     place: 'Louisville',
+//     sedan: '$145',
+//     suv: '$170',
+//   },
+//   {
+//     place: 'Morrison',
+//     sedan: '$160',
+//     suv: '$190',
+//   },
+//   {
+//     place: 'Northglenn',
+//     sedan: '$140',
+//     suv: '$165',
+//   },
+//   {
+//     place: 'Sheridan',
+//     sedan: '$140',
+//     suv: '$160',
+//   },
+//   {
+//     place: 'Thornton',
+//     sedan: '$140',
+//     suv: '$165',
+//   },
+//   {
+//     place: 'Westminster',
+//     sedan: '$130',
+//     suv: '$150',
+//   },
+// ]
 
-const colorado = [
-  {
-    place: 'Berthoud',
-    sedan: '$190',
-    suv: '$230',
-  },
-  {
-    place: 'Black Hawk',
-    sedan: '$215',
-    suv: '$250',
-  },
-  {
-    place: 'Boulder',
-    sedan: '$150',
-    suv: '$180',
-  },
-  {
-    place: 'Castle Rock',
-    sedan: '$140',
-    suv: '$165',
-  },
-  {
-    place: 'Castle Pines',
-    sedan: '$135',
-    suv: '$160',
-  },
-  {
-    place: 'Central City',
-    sedan: '$215',
-    suv: '$250',
-  },
-  {
-    place: 'Colorado Springs',
-    sedan: '$240',
-    suv: '$270',
-  },
-  {
-    place: 'Elizabeth',
-    sedan: '$140',
-    suv: '$165',
-  },
-  {
-    place: 'Erie',
-    sedan: '$145',
-    suv: '$170',
-  },
-  {
-    place: 'Evergreen',
-    sedan: '$190',
-    suv: '$230',
-  },
-  {
-    place: 'Franktown',
-    sedan: '$135',
-    suv: '$160',
-  },
-  {
-    place: 'Fort Collins',
-    sedan: '$210',
-    suv: '$250',
-  },
-  {
-    place: 'Fort Morgan',
-    sedan: '$240',
-    suv: '$270',
-  },
-  {
-    place: 'Greeley',
-    sedan: '$215',
-    suv: '$250',
-  },
-  {
-    place: 'Idaho Springs',
-    sedan: '$220',
-    suv: '$260',
-  },
-  {
-    place: 'Kiowa',
-    sedan: '$150',
-    suv: '$175',
-  },
-  {
-    place: 'Limon',
-    sedan: '$250',
-    suv: '$290',
-  },
-  {
-    place: 'Longmont',
-    sedan: '$180',
-    suv: '$220',
-  },
-  {
-    place: 'Loveland',
-    sedan: '$200',
-    suv: '$240',
-  },
-  {
-    place: 'Monument',
-    sedan: '$190',
-    suv: '$230',
-  },
-  {
-    place: 'Pueblo',
-    sedan: '$370',
-    suv: '$410',
-  },
-  {
-    place: 'Parker',
-    sedan: '$135',
-    suv: '$160',
-  },
-]
+// const colorado = [
+//   {
+//     place: 'Berthoud',
+//     sedan: '$190',
+//     suv: '$230',
+//   },
+//   {
+//     place: 'Black Hawk',
+//     sedan: '$215',
+//     suv: '$250',
+//   },
+//   {
+//     place: 'Boulder',
+//     sedan: '$150',
+//     suv: '$180',
+//   },
+//   {
+//     place: 'Castle Rock',
+//     sedan: '$140',
+//     suv: '$165',
+//   },
+//   {
+//     place: 'Castle Pines',
+//     sedan: '$135',
+//     suv: '$160',
+//   },
+//   {
+//     place: 'Central City',
+//     sedan: '$215',
+//     suv: '$250',
+//   },
+//   {
+//     place: 'Colorado Springs',
+//     sedan: '$240',
+//     suv: '$270',
+//   },
+//   {
+//     place: 'Elizabeth',
+//     sedan: '$140',
+//     suv: '$165',
+//   },
+//   {
+//     place: 'Erie',
+//     sedan: '$145',
+//     suv: '$170',
+//   },
+//   {
+//     place: 'Evergreen',
+//     sedan: '$190',
+//     suv: '$230',
+//   },
+//   {
+//     place: 'Franktown',
+//     sedan: '$135',
+//     suv: '$160',
+//   },
+//   {
+//     place: 'Fort Collins',
+//     sedan: '$210',
+//     suv: '$250',
+//   },
+//   {
+//     place: 'Fort Morgan',
+//     sedan: '$240',
+//     suv: '$270',
+//   },
+//   {
+//     place: 'Greeley',
+//     sedan: '$215',
+//     suv: '$250',
+//   },
+//   {
+//     place: 'Idaho Springs',
+//     sedan: '$220',
+//     suv: '$260',
+//   },
+//   {
+//     place: 'Kiowa',
+//     sedan: '$150',
+//     suv: '$175',
+//   },
+//   {
+//     place: 'Limon',
+//     sedan: '$250',
+//     suv: '$290',
+//   },
+//   {
+//     place: 'Longmont',
+//     sedan: '$180',
+//     suv: '$220',
+//   },
+//   {
+//     place: 'Loveland',
+//     sedan: '$200',
+//     suv: '$240',
+//   },
+//   {
+//     place: 'Monument',
+//     sedan: '$190',
+//     suv: '$230',
+//   },
+//   {
+//     place: 'Pueblo',
+//     sedan: '$370',
+//     suv: '$410',
+//   },
+//   {
+//     place: 'Parker',
+//     sedan: '$135',
+//     suv: '$160',
+//   },
+// ]
 
-const mountains = [
-  {
-    place: 'Aspen',
-    sedan: '$850',
-    suv: '$960',
-  },
-  {
-    place: 'Avon',
-    sedan: '$500',
-    suv: '$550',
-  },
-  {
-    place: 'Beaver Creeek',
-    sedan: '$500',
-    suv: '$550',
-  },
-  {
-    place: 'Breckenridge',
-    sedan: '$410',
-    suv: '$460',
-  },
-  {
-    place: 'Copper Mountain',
-    sedan: '$400',
-    suv: '$440',
-  },
-  {
-    place: 'Eagle',
-    sedan: '$600',
-    suv: '$660',
-  },
-  {
-    place: 'Eagle Airport',
-    sedan: '$650',
-    suv: '$690',
-  },
-  {
-    place: 'Estes Park',
-    sedan: '$300',
-    suv: '$350',
-  },
-  {
-    place: 'Georgetown',
-    sedan: '$310',
-    suv: '$360',
-  },
-  {
-    place: 'Glenwood Springs',
-    sedan: '$760',
-    suv: '$800',
-  },
-  {
-    place: 'Grand Junction',
-    sedan: '$840',
-    suv: '$870',
-  },
-  {
-    place: 'Keystone',
-    sedan: '$420',
-    suv: '$475',
-  },
-  {
-    place: 'Loveland Ski Area',
-    sedan: '$400',
-    suv: '$440',
-  },
-  {
-    place: 'Silverthorne',
-    sedan: '$400',
-    suv: '$440',
-  },
-  {
-    place: 'Steamboat Springs',
-    sedan: '$850',
-    suv: '$960',
-  },
-  {
-    place: 'Telluride',
-    sedan: '$1200',
-    suv: '$1250',
-  },
-  {
-    place: 'Vail',
-    sedan: '$480',
-    suv: '$520',
-  },
-  {
-    place: 'Winter Park',
-    sedan: '$400',
-    suv: '$440',
-  },
-]
+// const mountains = [
+//   {
+//     place: 'Aspen',
+//     sedan: '$850',
+//     suv: '$960',
+//   },
+//   {
+//     place: 'Avon',
+//     sedan: '$500',
+//     suv: '$550',
+//   },
+//   {
+//     place: 'Beaver Creeek',
+//     sedan: '$500',
+//     suv: '$550',
+//   },
+//   {
+//     place: 'Breckenridge',
+//     sedan: '$410',
+//     suv: '$460',
+//   },
+//   {
+//     place: 'Copper Mountain',
+//     sedan: '$400',
+//     suv: '$440',
+//   },
+//   {
+//     place: 'Eagle',
+//     sedan: '$600',
+//     suv: '$660',
+//   },
+//   {
+//     place: 'Eagle Airport',
+//     sedan: '$650',
+//     suv: '$690',
+//   },
+//   {
+//     place: 'Estes Park',
+//     sedan: '$300',
+//     suv: '$350',
+//   },
+//   {
+//     place: 'Georgetown',
+//     sedan: '$310',
+//     suv: '$360',
+//   },
+//   {
+//     place: 'Glenwood Springs',
+//     sedan: '$760',
+//     suv: '$800',
+//   },
+//   {
+//     place: 'Grand Junction',
+//     sedan: '$840',
+//     suv: '$870',
+//   },
+//   {
+//     place: 'Keystone',
+//     sedan: '$420',
+//     suv: '$475',
+//   },
+//   {
+//     place: 'Loveland Ski Area',
+//     sedan: '$400',
+//     suv: '$440',
+//   },
+//   {
+//     place: 'Silverthorne',
+//     sedan: '$400',
+//     suv: '$440',
+//   },
+//   {
+//     place: 'Steamboat Springs',
+//     sedan: '$850',
+//     suv: '$960',
+//   },
+//   {
+//     place: 'Telluride',
+//     sedan: '$1200',
+//     suv: '$1250',
+//   },
+//   {
+//     place: 'Vail',
+//     sedan: '$480',
+//     suv: '$520',
+//   },
+//   {
+//     place: 'Winter Park',
+//     sedan: '$400',
+//     suv: '$440',
+//   },
+// ]
 
 export default function Prices() {
   return (
@@ -454,7 +454,7 @@ export default function Prices() {
             </div>
           </div>
       </section>
-      <section className="tablet:py-[56px] py-10 w-full bg-black mx-auto text-center px-6 mobile:px-0">
+      {/* <section className="tablet:py-[56px] py-10 w-full bg-black mx-auto text-center px-6 mobile:px-0">
         <div>
           <h3 className="text-[32px] font-[800] leading-[44px] text-[#EEB957] tracking-[0.7px] mb-6">
             Denver Metro
@@ -538,7 +538,7 @@ export default function Prices() {
             <p className="text-[26px] leading-[32px] text-white mt-6">*Not available for mountain rides during the winter season.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
     </div>
   )
